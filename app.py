@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 import requests
+import os
 
 # URL and headers
 url = "https://cvs-data-public.s3.us-east-1.amazonaws.com/last-availability.json"
