@@ -1,8 +1,6 @@
 name: Check Visa Slots
 
 on:
-  schedule:
-    - cron: "*/3 * * * *"  # every 3 mins UTC
   workflow_dispatch:
 
 jobs:
