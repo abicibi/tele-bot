@@ -6,6 +6,7 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    environment: TELEGRAM_TOKEN
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
