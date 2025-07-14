@@ -13,7 +13,7 @@ headers = {
 
 # Telegram config
 TELEGRAM_TOKEN = "7254731409:AAGeEsyLi9x4EYdiRA3GuBK_G3fSo79L9Do"
-CHAT_IDS = ['1624851640']
+CHAT_IDS = ['1624851640', '8021906219']
 
 def send_telegram_message(message):
     for chat_id in CHAT_IDS:
