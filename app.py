@@ -14,6 +14,7 @@ headers = {
 # Telegram config
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 CHAT_IDS = ['1624851640']
+print(TELEGRAM_TOKEN)
 
 def send_telegram_message(message):
     for chat_id in CHAT_IDS:
